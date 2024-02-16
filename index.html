@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Online</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+      
+        header {
+            background-color: #500001;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            display: flex;
+            justify-content: flex-end; 
+            align-items: center;
+            position: relative; 
+        }
+        
+        .menu-link {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            margin-left: 10px; 
+        }
+        
+        .menu-link:hover {
+            background-color: #fff;
+            color: #500001;
+        }
+        
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .menu-item {
+            border: 1px solid #ddd;
+            background-color: #fff;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .menu-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .logo {
+            width: 500px; 
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Images/logo3.jpg" alt="Logo" class="logo">
+        <h1>Cardápio De Pratos</h1>
+        <nav>
+            <a href="code.html" class="menu-link">Home</a>
+            <a href="pizzas.html" class="menu-link">Pizzas</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="menu-item">
+            <img src="Images/spaghetti-bolognesa.jpg" alt="Prato 1">
+            <h2>Spaghetti à Bolonhesa</h2>
+            <p>Spaghetti à Bolonhesa é um prato italiano clássico composto por espaguete al dente e molho de carne moída com tomates frescos, cebola e temperos. Deliciosamente reconfortante, é servido com queijo parmesão por cima para uma experiência autêntica e satisfatória..</p>
+            <p>Preço: R$50.00</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="Images/I2.jpg" alt="Prato 2">
+            <h2>Lasanha</h2>
+            <p>
+                Lasanha com bolonhesa é um clássico italiano repleto de sabor e textura. Camadas de massa intercaladas com molho de carne à bolonhesa, queijo e molho bechamel, gratinadas até dourar. </p>
+            <p>Preço: R$62.00</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="Images/download.jpg" alt="Prato 3">
+            <h2>Risoto de Funghi Porcini</h2>
+            <p> Este prato clássico consiste em risoto cremoso preparado com arroz arbóreo, cogumelos porcini reidratados, cebola, alho, caldo de legumes e finalizado com manteiga, queijo parmesão e ervas frescas.</p>
+            <p>Preço: R$35.00</p>
+        </div>
+    
+        <div class="menu-item">
+            <img src="Images/IMG_2890.JPG" alt="Prato 4">
+            <h2>Bifes de frango à italiana</h2>
+            <p> Bifes de frango à italiana são suculentos filés de frango grelhados e cobertos com molho de tomate fresco, manjericão e queijo derretido. Uma explosão de sabores mediterrâneos em cada mordida, perfeito para quem busca uma opção reconfortante e deliciosa.</p>
+            <p>Preço: R$40.00</p>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
